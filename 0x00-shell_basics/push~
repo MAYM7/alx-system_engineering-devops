@@ -1,5 +1,6 @@
 #!/bin/bash
 hash=$(echo "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")
+hash2=$1
 git add .
-git commit -m $1
+git commit -m  \"$hash2\" 
 git push https://$hash@github.com/MAYM7/alx-system_engineering-devops.git

@@ -1,5 +1,3 @@
 #!/bin/bash
 hash=$(echo "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")
-git add .
-git commit -m  "pushing"
-git push https://$hash@github.com/MAYM7/alx-system_engineering-devops.git
+git push https://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@github.com/MAYM7/alx-system_engineering-devops.git

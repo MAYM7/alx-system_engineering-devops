@@ -1,3 +1,5 @@
 #!/bin/bash
-hash=$(echo "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")
+hash=$(echo "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")
+git add .
+git commit -m \"$1\"
 git push https://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@github.com/MAYM7/alx-system_engineering-devops.git

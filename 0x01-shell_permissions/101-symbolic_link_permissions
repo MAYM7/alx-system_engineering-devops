@@ -1,2 +1,2 @@
 #!/bin/bash
-path=$(./hello)|chown vincent:staff $path
+path=$(./hello)|chown -h vincent:staff $path

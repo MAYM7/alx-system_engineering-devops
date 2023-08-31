@@ -1,2 +1,2 @@
 #!/bin/bash
-file_path=$(./_hello)|chown vincent:staff $file_path
+chown vincent:staff $./_hello

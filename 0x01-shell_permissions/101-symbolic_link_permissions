@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent _hello|chgrp staff _hello
+file_path="./_hello"|chown vincent:staff $file_path

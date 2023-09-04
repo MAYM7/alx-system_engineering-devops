@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif| paste -s -d " "
+find . -type f -name "*.gif"| paste -s -d " "

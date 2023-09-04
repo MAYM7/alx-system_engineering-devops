@@ -1,0 +1,12 @@
+#!/bin/sh  
+
+***WARNING***add autogit to your .gitignore file***
+
+***Enter Token, UserName and RepoName before use***
+
+Token=$(echo "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");
+UserName=$(echo "MAYM7");
+RepoName=$(echo "alx-system_engineering-devops");
+git add $1;
+git commit -m $2\ $3\ $4\ $5\ $6\ $7\ $8\ $9;
+git push https://$Token@github.com/$UserName/$RepoName.git;

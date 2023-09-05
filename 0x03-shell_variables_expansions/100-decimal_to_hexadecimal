@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((printf "%X $DECIMAL" "%f\n"))
+printf -v result1 "%x" "$DECIMAL"

@@ -1,2 +1,2 @@
 #!/bin/bash
-alice PATH="$(PATH)/action"
+PATH=$PATH/action

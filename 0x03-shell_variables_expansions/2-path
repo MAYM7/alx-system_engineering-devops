@@ -1,2 +1,2 @@
 #!/bin/bash
-echo /action >> ~/.bashrc
+echo /action >> $PATH
